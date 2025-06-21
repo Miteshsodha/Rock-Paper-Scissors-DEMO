@@ -1,0 +1,71 @@
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#btnR,
+#btnP,
+#btnS {
+    font-size: 35px;
+    border-radius: 15px;
+    background-color: rgb(250, 116, 116);
+    border: 1px solid rgb(250, 116, 116);
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+    color: red;
+}
+
+#display {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#tempResult {
+    font-size: 25px;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-right: 550px;
+    margin-left: 550px;
+    color: blueviolet;
+}
+
+#currscore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+#FinalResult {
+    margin-top: 5%;
+    font-size: 35px;
+    color: chartreuse;
+    font-weight: bolder;
+    border: 5px solid chartreuse;
+}
+
+body {
+    background-color: rgb(251, 255, 188);
+    font-family: Arial, sans-serif;
+}
+
+#currentScore1,
+#currentScore2 {
+    font-size: 30px;
+    color: rgb(240, 10, 10);
+    font-weight: bolder;
+}
