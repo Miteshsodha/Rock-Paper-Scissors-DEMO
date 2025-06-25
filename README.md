@@ -27,3 +27,4 @@ A fun and interactive **Rock, Paper, Scissors** game where you play against a bo
 ├── index.html          # Main HTML file
 ├── style.css           # Styling for layout and visuals
 └── script.js           # Game logic and interactivity
+
